@@ -2,28 +2,31 @@
 	background: #f1f1f1;
 	padding: 0px;
 }
-.rabbit-admin-container {
+.rabbit-admin-wrap .rabbit-admin-container {
 	display: table;
 	width: 98%;
 	padding: 10px 10px 10px 10px;
-	margin: 10px 10px 10px -5px;
+	margin: 30px 10px 10px -5px;
 	background-color:#fff;
 	min-height: 700px;
 	border-radius: 25px;
 }
-.rabbit-action-box {
+.rabbit-admin-wrap .rabbit-admin-container img.rabbit-logo {
+	width: 20%;
+}
+.rabbit-admin-wrap .rabbit-action-box {
 	display: block;
 	float: left;
 	width: 100%;
 	padding: 20px 0;
 }
-.rabbit-action-box ul {
+.rabbit-admin-wrap .rabbit-action-box ul {
 	display: block;
 	text-align: left;
 	padding: 0px!important;
 	margin: 0px!important;
 }
-.rabbit-action-box ul li {
+.rabbit-admin-wrap .rabbit-action-box ul li {
  display: block;
  text-align: left;
  float: left;
@@ -34,12 +37,12 @@
  background: none;
  border: 2px solid #ffffff;
 }
-.rabbit-action-icon {
+.rabbit-admin-wrap .rabbit-action-icon {
 	display: block;
 	text-align: center;
 	padding-top: 23px;
 }
-.rabbit-action-box ul li a h3 {
+.rabbit-admin-wrap .rabbit-action-box ul li a h3 {
 	color: #343434;
 	display: block;
 	font-size: 12px;
