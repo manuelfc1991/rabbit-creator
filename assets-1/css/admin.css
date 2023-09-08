@@ -1,0 +1,225 @@
+#icoes-digital-certificate-settings .form-field label {
+	width: 100px;
+	display: inline-block;
+}
+#icoes-digital-certificate-settings .form-field {
+	margin-bottom: 10px;
+}
+#icoes-digital-certificate-settings .form-field input[type="email"], 
+#icoes-digital-certificate-settings .form-field input[type="number"], 
+#icoes-digital-certificate-settings .form-field input[type="password"], 
+#icoes-digital-certificate-settings .form-field input[type="search"], 
+#icoes-digital-certificate-settings .form-field input[type="tel"], 
+#icoes-digital-certificate-settings .form-field input[type="text"], 
+#icoes-digital-certificate-settings .form-field input[type="url"], 
+#icoes-digital-certificate-settings .form-field textarea {
+	width: 400px;
+}
+#icoes-digital-certificate-settings .th-submit-btn {
+	background: #2271b1;
+	color: #fff;
+	padding: 10px 15px;
+	border: 0;
+	border-radius: 3px;
+}
+
+#icoes-digital-certificate-add-email-template .form-field label {
+	width: 100px;
+	display: inline-block;
+	vertical-align: top;
+}
+#icoes-digital-certificate-add-email-template .form-field {
+	margin-bottom: 10px;
+}
+#icoes-digital-certificate-add-email-template .form-field input[type="email"], 
+#icoes-digital-certificate-add-email-template .form-field input[type="number"], 
+#icoes-digital-certificate-add-email-template .form-field input[type="password"], 
+#icoes-digital-certificate-add-email-template .form-field input[type="search"], 
+#icoes-digital-certificate-add-email-template .form-field input[type="tel"], 
+#icoes-digital-certificate-add-email-template .form-field input[type="text"], 
+#icoes-digital-certificate-add-email-template .form-field input[type="url"], 
+#icoes-digital-certificate-add-email-template .form-field textarea {
+	width: 600px;
+}
+#icoes-digital-certificate-add-email-template .form-field textarea {
+	min-height: 130px;
+}
+#icoes-digital-certificate-add-email-template .th-submit-btn {
+	background: #2271b1;
+	color: #fff;
+	padding: 10px 15px;
+	border: 0;
+	border-radius: 3px;
+}
+
+.icoes-digital-certificate-action-box ul {
+	font-size: 0;
+}
+.icoes-digital-certificate-action-box ul li {
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px 10px 0 0;
+}
+.icoes-digital-certificate-action-box ul li img {
+	max-height: 60px;
+	vertical-align: top;
+}
+.icoes-digital-certificate-action-box ul li a {
+	background: #fff;
+	display: block;
+	border-radius: 10px;
+	text-decoration: none;
+	padding: 40px 15px 10px 15px;
+	text-align: center;
+	min-width: 170px;
+	min-height: 120px;
+}
+.icoes-digital-certificate-action-box ul li a h3 {
+	font-size: 16px;
+	font-weight:500;
+	line-height: 20px;
+	margin: 15px 0 0 0;
+}
+.icoes-digital-certificate-action-box ul li a:hover h3 {
+	color: #2271b1;
+}
+#icoes_digital_certificate_list_table {
+	max-width: 100%;
+}
+.icoes-digital-certificate-datatable-wrap {
+	padding-right: 20px;
+}
+#email_template {
+	width: 300px;
+}
+#programmatic-seo-frm-post-template-new .form-field input {
+	margin-bottom: 10px;
+}
+#programmatic-seo-frm-post-template-new .form-field input:focus, #programmatic-seo-frm-post-template-new .form-field select:focus {
+	outline: none;
+	box-shadow: none;
+}
+.icoes-digital-certificate-email {
+	background: #fff;
+	padding: 25px 0;
+}
+#icoes-digital-certificate-add-email-template #wp-content-wrap {
+	display: inline-block;
+	vertical-align: top;
+	width: 600px;
+}
+#icoes-digital-certificate-add-email-template #wp-content-wrap #wp-content-editor-tools {
+	padding-top: 0;
+}
+
+
+
+
+@media screen and (max-width:767px) { 
+	#icoes-digital-certificate-add-email-template .form-field input[type="email"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="number"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="password"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="search"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="tel"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="text"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="url"], 
+	#icoes-digital-certificate-add-email-template .form-field textarea {
+		width: 470px;
+	}
+	#icoes-digital-certificate-add-email-template #wp-content-wrap {
+		width: 470px;
+	}
+}
+
+@media screen and (max-width:600px) { 
+	#icoes-digital-certificate-settings .form-field label {
+	  width: 70px;
+	}
+	#icoes-digital-certificate-add-email-template .form-field label {
+		width: 90px;
+	}
+
+	#icoes-digital-certificate-add-email-template .form-field input[type="email"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="number"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="password"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="search"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="tel"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="text"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="url"], 
+	#icoes-digital-certificate-add-email-template .form-field textarea {
+		width: 380px;
+	}
+	#icoes-digital-certificate-add-email-template #wp-content-wrap {
+		width: 380px;
+	}
+}
+@media screen and (max-width:500px) { 
+	#icoes-digital-certificate-settings .form-field label {
+	  width: 20%;
+	}
+	#icoes-digital-certificate-settings .form-field input[type="email"], 
+	#icoes-digital-certificate-settings .form-field input[type="number"], 
+	#icoes-digital-certificate-settings .form-field input[type="password"], 
+	#icoes-digital-certificate-settings .form-field input[type="search"], 
+	#icoes-digital-certificate-settings .form-field input[type="tel"], 
+	#icoes-digital-certificate-settings .form-field input[type="text"], 
+	#icoes-digital-certificate-settings .form-field input[type="url"], 
+	#icoes-digital-certificate-settings .form-field textarea {
+		width: 75%;
+	}
+	#icoes-digital-certificate-add-email-template .form-field label {
+		width: 20%;
+	}
+	#icoes-digital-certificate-add-email-template .form-field input[type="email"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="number"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="password"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="search"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="tel"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="text"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="url"], 
+	#icoes-digital-certificate-add-email-template .form-field textarea {
+		width: 75%;
+	}
+	#icoes-digital-certificate-add-email-template #wp-content-wrap {
+		width: 75%;
+	}
+	#icoes-digital-certificate-add-email-template #wp-content-wrap textarea {
+		width: 100%;
+	}
+	.icoes-digital-certificate-action-box ul li a {
+		min-width: 150px;
+	}
+	
+	
+}
+
+@media screen and (max-width:420px) { 
+	#icoes-digital-certificate-add-email-template .form-field label {
+		width: 25%;
+	}
+	#icoes-digital-certificate-add-email-template .form-field input[type="email"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="number"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="password"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="search"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="tel"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="text"], 
+	#icoes-digital-certificate-add-email-template .form-field input[type="url"], 
+	#icoes-digital-certificate-add-email-template .form-field textarea {
+		width: 70%;
+	}
+	#icoes-digital-certificate-add-email-template #wp-content-wrap {
+		width: 70%;
+	}
+	.icoes-digital-certificate-action-box ul li {
+		width: 47%;
+		margin-right: 2%;
+	}
+	.icoes-digital-certificate-action-box ul li:nth-child(2n) {
+		margin-right: 0;
+	}
+	.icoes-digital-certificate-action-box ul li a {
+		min-width: inherit;
+		padding: 40px 10px 10px 10px;
+	}
+	
+}
