@@ -19,29 +19,29 @@ class Rabbit {
         self::rabbit_pages();
     }
     public static function rabbit_navbar() {
-        function rabbit_header_menubar() {
-            global $wp_admin_bar;
+        // function rabbit_header_menubar() {
+        //     global $wp_admin_bar;
         
-            // Change 'My Plugin' and 'My Plugin Link' to your plugin name and the link text you prefer.
-            $wp_admin_bar->add_menu(
-                array(
-                    'id' => 'rabbit-creator',
-                    'title' => 'Rabbit Creator',
-                    'href' => admin_url('admin.php?page=rabbit-dashboard'), // Replace 'my-plugin-page' with your plugin's admin page slug.
-                )
-            );
+        //     // Change 'My Plugin' and 'My Plugin Link' to your plugin name and the link text you prefer.
+        //     $wp_admin_bar->add_menu(
+        //         array(
+        //             'id' => 'rabbit-creator',
+        //             'title' => 'Rabbit Creator',
+        //             'href' => admin_url('admin.php?page=rabbit-dashboard'), // Replace 'my-plugin-page' with your plugin's admin page slug.
+        //         )
+        //     );
         
-            // Add a sub-menu item
-            $wp_admin_bar->add_menu(
-                array(
-                    'id' => 'rabbit-submenu',
-                    'parent' => 'rabbit-creator', // This should match the 'id' of the parent menu
-                    'title' => 'Submenu Item',
-                    'href' => admin_url('admin.php?page=rabbit-submenu'), // Replace with the URL for your submenu
-                )
-            );
-        }
-        add_action('admin_bar_menu', 'rabbit_header_menubar', 999);
+        //     // Add a sub-menu item
+        //     $wp_admin_bar->add_menu(
+        //         array(
+        //             'id' => 'rabbit-submenu',
+        //             'parent' => 'rabbit-creator', // This should match the 'id' of the parent menu
+        //             'title' => 'Submenu Item',
+        //             'href' => admin_url('admin.php?page=rabbit-submenu'), // Replace with the URL for your submenu
+        //         )
+        //     );
+        // }
+        // add_action('admin_bar_menu', 'rabbit_header_menubar', 999);
     }
     public static function rabbit_asset() {
         function  rabbit_plugin_script_style() {
@@ -58,15 +58,8 @@ class Rabbit {
         add_action( 'admin_enqueue_scripts', 'rabbit_plugin_script_style' );
     }
     public static function rabbit_pages() {
-        add_menu_page(
-            'Rabbit Dashboard',         // Page title
-            'Rabbit Dashboard',         // Menu title
-            'edit_posts',               // Capability required to access
-            'rabbit-dashboard',         // Menu slug (matches the href in the admin bar item)
-            'rabbit_dashbord', // Callback function to display the page content
-            'dashicons-rabbit'          // Icon (replace with the appropriate Dashicon)
-        );
-        function rabbit_dashbord(){
+        add_menu_page('Dashbord', 'Rabbit Creator', 'edit_posts', 'rabbit-dashboard', 'rabbit_dashboard', 'dashicons-admin-site-alt3');
+        function rabbit_dashboard(){
             global $wpdb;
             require_once RC_PLUGIN_BASE_DIR. 'pages/rabbit-dashboard.php';
         }
