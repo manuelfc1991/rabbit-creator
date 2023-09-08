@@ -45,7 +45,7 @@ class Rabbit {
     }
     public static function rabbit_asset() {
         function  rabbit_plugin_script_style() {
-            wp_register_style('rabbit_admin', RC_PLUGIN_URL. 'assets/css/admin.css');
+            wp_register_style('rabbit_admin', RC_PLUGIN_URL. 'assets/css/rabbit.css');
             wp_enqueue_style('rabbit_admin');
         
             wp_register_style('rabbit_datatables_style', RC_PLUGIN_URL. 'assets/datatables/datatables.min.css');
